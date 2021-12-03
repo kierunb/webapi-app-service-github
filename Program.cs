@@ -19,7 +19,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 
-app.MapGet("/", () => $"Hello from Web API!");
+app.MapGet("/", () => $"Hello from Web API v1.0!");
 
 app.UseAuthorization();
 
